@@ -10,7 +10,7 @@ O Pulse Personal é um sistema de agendamentos para personal trainers, desenvolv
 
 A arquitetura MVC separa as regras e os dados, a apresentação das telas e o controle das requisições. Foram utilizados os padrões Singleton, para reutilizar a conexão PDO; Repository, para organizar o acesso ao banco; e Front Controller, para centralizar as rotas e verificações de segurança. O sistema também utiliza consultas preparadas, proteção CSRF, isolamento dos dados por usuário e validação de conflitos de horário.
 
-O desenvolvimento e a elaboração desta resposta contaram com auxílio de inteligência artificial. O projeto demonstra a aplicação integrada de PHP, MySQL, MVC e padrões de projeto na organização da rotina de um personal trainer.
+.
 
 ## Telas do sistema
 
