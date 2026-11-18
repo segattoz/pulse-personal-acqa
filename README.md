@@ -115,4 +115,6 @@ A lista de tarefas do dashboard atende ao requisito da atividade e o CRUD tem co
 
 ## Entrega
 
-Consulte [RESPOSTA_DO_ALUNO.md](docs/RESPOSTA_DO_ALUNO.md) para o link do repositório e uma **sugestão de conclusão**, a ser revisada e adaptada pelo aluno. O projeto foi criado com assistência de IA; a autoria e compreensão devem ser apresentadas conforme as regras da disciplina. Não foi copiado um projeto pronto.
+Consulte [RESPOSTA_DO_ALUNO.md](docs/RESPOSTA_DO_ALUNO.md) para o link do repositório e a conclusão. A versão em texto está em [RESPOSTA_DO_ALUNO.txt](RESPOSTA_DO_ALUNO.txt).
+
+O desenvolvimento e a documentação do projeto contaram com auxílio de inteligência artificial.
