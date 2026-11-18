@@ -1,18 +1,16 @@
-# Resposta do aluno — sugestão para revisão
+# Resposta do aluno
 
 **Aluno:** Matheus Souza Segatto
 
 **Repositório GitHub:** https://github.com/segattoz/pulse-personal-acqa
 
-## Conclusão sugerida
+## Conclusão
 
-O Pulse Personal é um sistema de agendamentos para personal trainers, desenvolvido em PHP e MySQL com arquitetura MVC. Ele permite cadastrar usuários, autenticar o acesso e organizar atendimentos com aluno, modalidade, data, horário, duração, situação e observações. O dashboard apresenta os atendimentos do dia, indicadores da agenda e uma lista de tarefas do usuário autenticado. O CRUD de agendamentos permite inserir, consultar, atualizar e excluir registros, além de pesquisar atendimentos e filtrar sua situação.
+O Pulse Personal é um sistema de agendamentos para personal trainers, desenvolvido em PHP e MySQL. Possui cadastro e login com senhas protegidas por bcrypt, dashboard com tarefas do usuário e CRUD completo de agendamentos, permitindo inserir, consultar, atualizar e excluir atendimentos.
 
-Na organização MVC, os controllers recebem as requisições e coordenam as ações; a camada de modelo reúne as regras de validação e os repositories responsáveis pela persistência; e as views apresentam as telas e os formulários. O banco MySQL contém as tabelas users, appointments e tasks, relacionadas por chaves estrangeiras. Cada consulta considera o usuário da sessão para manter os dados separados entre contas.
+A arquitetura MVC separa as regras e os dados, a apresentação das telas e o controle das requisições. Foram utilizados os padrões Singleton, para reutilizar a conexão PDO; Repository, para organizar o acesso ao banco; e Front Controller, para centralizar as rotas e verificações de segurança. O sistema também utiliza consultas preparadas, proteção CSRF, isolamento dos dados por usuário e validação de conflitos de horário.
 
-Foram aplicados os padrões Singleton, Repository e Front Controller. O Singleton reutiliza uma conexão PDO; os repositories encapsulam o SQL e separam a persistência das outras responsabilidades; e o Front Controller centraliza o roteamento e as verificações comuns. As senhas são armazenadas com bcrypt e verificadas com password_verify. A aplicação também utiliza consultas preparadas, tokens CSRF, escape de HTML e regeneração da sessão após o login.
-
-O sistema verifica conflitos de horário antes de gravar um agendamento e foi validado com testes de autenticação, CRUD, tarefas e isolamento entre usuários, utilizando MySQL real. O projeto demonstra como a separação de responsabilidades, os padrões de projeto e as medidas de segurança facilitam a manutenção de uma aplicação web e a organização da rotina de um profissional.
+O desenvolvimento e a elaboração desta resposta contaram com auxílio de inteligência artificial. O projeto demonstra a aplicação integrada de PHP, MySQL, MVC e padrões de projeto na organização da rotina de um personal trainer.
 
 ## Arquivos para anexar
 
@@ -22,5 +20,3 @@ O sistema verifica conflitos de horário antes de gravar um agendamento e foi va
 - `docs/prints/04-novo-agendamento.jpg` — formulário do CRUD.
 - `docs/prints/05-agendamentos.jpg` — listagem do CRUD.
 - `docs/prints/06-adicionar-tarefa.jpg` — adição de tarefa no dashboard.
-
-**Antes de enviar:** revise o código e adapte esta conclusão ao seu entendimento. O projeto e este texto foram preparados com assistência de IA; a entrega deve respeitar as regras de autoria e de uso de ferramentas da disciplina.
