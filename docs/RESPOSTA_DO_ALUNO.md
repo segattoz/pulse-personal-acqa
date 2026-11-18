@@ -10,13 +10,19 @@ O Pulse Personal é um sistema de agendamentos para personal trainers, desenvolv
 
 A arquitetura MVC separa as regras e os dados, a apresentação das telas e o controle das requisições. Foram utilizados os padrões Singleton, para reutilizar a conexão PDO; Repository, para organizar o acesso ao banco; e Front Controller, para centralizar as rotas e verificações de segurança. O sistema também utiliza consultas preparadas, proteção CSRF, isolamento dos dados por usuário e validação de conflitos de horário.
 
-O desenvolvimento e a elaboração desta resposta contaram com auxílio de inteligência artificial. O projeto demonstra a aplicação integrada de PHP, MySQL, MVC e padrões de projeto na organização da rotina de um personal trainer.
 
-## Arquivos para anexar
 
-- `docs/prints/01-login.jpg` — login.
-- `docs/prints/02-cadastro.jpg` — cadastro.
-- `docs/prints/03-dashboard.jpg` — dashboard com tarefas.
-- `docs/prints/04-novo-agendamento.jpg` — formulário do CRUD.
-- `docs/prints/05-agendamentos.jpg` — listagem do CRUD.
-- `docs/prints/06-adicionar-tarefa.jpg` — adição de tarefa no dashboard.
+## Arquivos 
+
+- `<img width="1536" height="884" alt="image" src="https://github.com/user-attachments/assets/5cc1ab26-a61c-4020-9a2d-a4166fa76756" />
+` — login.
+- `<img width="1520" height="1156" alt="image" src="https://github.com/user-attachments/assets/7d8fe7c0-eef6-4e8e-9cb0-fe21fc7702b3" />
+` — cadastro.
+- `<img width="1536" height="639" alt="image" src="https://github.com/user-attachments/assets/215ec53e-383e-430a-ab8f-8b86d75e3d1b" />
+` — dashboard com tarefas.
+- `<img width="1520" height="1053" alt="image" src="https://github.com/user-attachments/assets/63143dd2-b55b-4d94-93dc-c5b1c8a2d7a8" />
+` — formulário do CRUD.
+- `<img width="1520" height="884" alt="image" src="https://github.com/user-attachments/assets/2c429ce9-be71-4764-878e-ef9c734683e5" />
+` — listagem do CRUD.
+- `<img width="1536" height="639" alt="image" src="https://github.com/user-attachments/assets/4fec86ef-f97e-4bc2-a4fe-b5c17f0227ab" />
+` — adição de tarefa no dashboard.
