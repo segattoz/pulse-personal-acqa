@@ -1,0 +1,7 @@
+.env
+.runtime/
+storage/*.log
+storage/*.json
+!storage/.gitkeep
+node_modules/
+*.zip
